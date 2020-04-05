@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Form formulir E-KTP</title>
+	<h1>DATA DIRI</h1>
+	<style type="text/css">
+		h1 {text-align: center;}
+		table {width: 500px; margin: auto;}
+	</style>
+	
+		
+	
+</head>
+<body>
+	<table border="1">
+		<tr>
+	<td>NAMA </td>
+	<td><input type="text" name="nama"/></td>
+		</tr>
+		<tr>
+	<td>TEMPAT/TANGGAL LAHIR </td>
+	<td><input type="text" name="tempat"/><input type="date" name="tanggal"/></td>
+		</tr>
+		<tr>
+	<td>JENIS KELAMIN </td>
+	<td><input type="radio" name="Jk" value="Laki-Laki"/> Laki-Laki
+					<input type="radio" name="jk" value="Perempuan"/> perempuan
+					</td>
+		</tr>
+		<tr>
+	<td>ALAMAT </td>
+	<td><textarea name="Alamat"> </textarea>
+	</td>
+		</tr>
+		<tr>
+	<td>AGAMA </td>
+	<td><select name="agama">
+		<option value="islam">islam</option>
+		<option value="kristen">Kristen</option>
+		<option value="budha">Budha</option>
+		<option value="Hindu">Hindu</option>
+		<option  value="Konghucu">Konghucu</option>
+	</select>
+		</td>
+		</tr>
+		<tr>
+	<td>STATUS </td>
+	<td><input type="radio" name="STATUS" value="menikah"/> menikah
+		<input type="radio" name="STATUS" value="Belum"/>Belum menikah
+		</td>
+		</tr>
+		<tr>
+
+	<td>PEKERJAAN </td>
+	<td><input type="checKbox" name="pekerjaan" value="pns">PNS
+			<input type="checKbox" name="pekerjaan" value="pns">WIRASWASTA
+			<input type="checKbox" name="pekerjaan" value="pns">PETANI
+			<input type="checKbox" name="pekerjaan" value="pns">BURUH
+			<input type="checKbox" name="pekerjaan" value="pns">PELAJAR
+			</td>
+			</tr>
+			<tr>
+	<td>MASA BERLAKU </td>
+<td><input type="text" name="masa" value="seumur hidup" checked/></td>
+	</tr>
+	<tr>
+		<td></td>
+	<td><input type="reset" value="ulang"/><input type="submit" value="simpan"/></td>
+</table>
+</body>
+</html>
